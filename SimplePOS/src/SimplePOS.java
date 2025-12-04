@@ -1,5 +1,5 @@
 // Aquino: Implemented the abstract Product class, main SimplePOS GUI frame, theme colors, fonts, button styling, and product images integration.
-
+// Masillam: Integrated all panels into the final GUI and implemented the Checkout dialog with purchase summary and confirmation button
 // File: SimplePOS.java
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // -----------------------------
-// ABSTRACT CLASS: Product
+// ABSTRACT CLASS: Product     
 // -----------------------------
 abstract class Product {
     protected String name;
@@ -92,7 +92,7 @@ class Cart {
 }
 
 // -----------------------------
-// MAIN GUI: SimplePOS Frame
+// MAIN : SimplePOS Frame
 // -----------------------------
 public class SimplePOS extends JFrame {
     private Cart cart = new Cart();
