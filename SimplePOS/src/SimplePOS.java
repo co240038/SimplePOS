@@ -65,6 +65,8 @@ class CartItem {
 // -----------------------------
 // CLASS: Cart
 // -----------------------------
+
+// Lao: Developed the full Cart class, including adding, clearing, and calculating subtotal, tax, and total.
 class Cart {
     private List<CartItem> items = new ArrayList<>();
 
@@ -191,6 +193,8 @@ public class SimplePOS extends JFrame {
         // -----------------------------
         // RIGHT PANEL: Totals + Buttons
         // -----------------------------
+
+        // Lao: Implemented the Totals Panel with real-time updating of Subtotal, Tax, and Total labels.
         JPanel rightPanel = new JPanel(new BorderLayout(12,12));
         rightPanel.setBackground(CONTENT_BG);
         rightPanel.setBorder(new EmptyBorder(12,12,12,12));
