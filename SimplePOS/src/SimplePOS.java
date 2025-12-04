@@ -1,3 +1,5 @@
+// Aquino: Implemented the abstract Product class, main SimplePOS GUI frame, theme colors, fonts, button styling, and product images integration.
+
 // File: SimplePOS.java
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
