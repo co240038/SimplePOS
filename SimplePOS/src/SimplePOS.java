@@ -44,6 +44,8 @@ class DrinkItem extends Product {
 // -----------------------------
 // CLASS: CartItem
 // -----------------------------
+
+// Jalilula: Implemented the CartItem class, handling product-quantity logic, and created the Cart Table (JTable) with the table model for displaying cart data.
 class CartItem {
     private Product product;
     private int quantity;
