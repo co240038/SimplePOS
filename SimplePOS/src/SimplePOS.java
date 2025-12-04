@@ -118,6 +118,8 @@ public class SimplePOS extends JFrame {
         // -----------------------------
         // LEFT PANEL: Product Buttons
         // -----------------------------
+
+        // Blanco: Developed FoodItem and DrinkItem subclasses and created the Product Panel with product buttons and item-click handling.
         JPanel productPanel = new JPanel();
         productPanel.setLayout(new BorderLayout(8, 8));
         productPanel.setBackground(SIDEBAR_BG);
